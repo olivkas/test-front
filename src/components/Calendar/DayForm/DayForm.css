@@ -1,0 +1,41 @@
+.day-wrapper {
+    padding: 10px;
+}
+
+.day-hour {
+    display: flex;
+}
+
+.day-time {
+    width: 200px;
+    height: 25px;
+    border: 1px solid #d3d1d1;
+}
+
+.day-strEvent {
+    width: 1035px;
+    height: 25px;
+    border: 1px solid #d3d1d1;
+}
+
+.day-strEvent {
+    position: relative;
+}
+ 
+.day-hour {
+  display: flex;
+}
+
+.event {
+  width: 200px;
+  background-color: #a9c0df;
+  position: absolute;
+  z-index: 2;
+  border-radius: 5px;
+  border: 1px solid #7e7777;
+  color: #5b6069;
+}
+
+.event::first-letter {
+  text-transform: uppercase;
+}

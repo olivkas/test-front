@@ -1,0 +1,17 @@
+.calendar-wr {
+  display: flex;
+  justify-content: center;
+}
+
+.calendar-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  width: 1260px;
+  height: 675px;
+  background-color: #ededed;
+  border-radius: 10px;
+}
+
+

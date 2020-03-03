@@ -1,0 +1,77 @@
+.calendar-days li::after {
+  position: absolute;
+    content: attr(data-day);
+    color: #5b6069;
+}
+
+.week-wrapper {
+    width: 1200px;
+    height: 620px;
+    margin: 0 auto;
+}
+
+.calendar-week{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+}
+
+.calendar-week li {
+    width: calc(1200px /7);
+    text-align: center;
+}
+
+.calendar-days li {
+    width: 169px;
+    height: 90px;
+    margin: 0;
+    border: 1px solid #ededed;
+    background-color: #fff;  
+}
+
+.calendar-days {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+
+.weeksday {
+    display: flex;
+}
+
+.calendar-days li.current-day{
+    background-color: #c3e6f7;
+}
+
+.calendar-days li.selected-day{
+    border:1px solid #8c94aa;
+}
+
+.calendar-days li.emptySlot {
+    background-color: #ededed;
+}
+
+.calendar-days li::before {
+    content: attr(data-day);
+    color: #5b6069;
+}
+
+.calendar-days li::after {
+    content: '';   
+}
+
+.day {
+    width:155px;
+    height: 18px;
+    background-color: #a9c0df;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: #5b6069;    
+}
+
+.day::first-letter {
+    text-transform: uppercase;
+  }

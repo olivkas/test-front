@@ -1,0 +1,81 @@
+.primaryHeader {
+    height: 60px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 60px;
+    width: 1260px;
+    background: #ededed;    
+    border-radius: 10px;
+}
+
+.menuForm li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #5b6069;
+    border-radius: 10px;
+    margin: 25px 10px;
+}
+
+.menuForm .formActive {
+    background-color: #c3e6f7;
+}
+
+ .menuForm {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+}
+
+.curDate-data, .menuForm li:hover {
+    cursor: pointer;
+}
+
+.newEvent {
+    height: 15px;
+    background-color: #fff;
+    padding: 15px 15px;
+    background-color: #fff;
+    color: #5b6069;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.newEvent:hover {
+    background-color: #c3e6f7;
+}
+
+.currentDate {
+    display: flex;
+    height: 20px;
+    font-size: 18px;
+    margin-right: 145px
+}
+
+.curPrev:hover,.curNext:hover {
+    cursor: pointer;
+}
+
+.curDate-data {
+    margin: 0 5px;
+}
+
+.newEvent:hover {
+    cursor: pointer;
+}
+
+.addBtn {
+    color: #5b6069;
+    padding-right: 20px;    
+}
+
+
